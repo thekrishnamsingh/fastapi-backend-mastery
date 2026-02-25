@@ -11,4 +11,3 @@ app = FastAPI(
 def root():
     return {"message": "FastAPI Backend Mastery Started 🚀"}
 
-app.include_router(router)
